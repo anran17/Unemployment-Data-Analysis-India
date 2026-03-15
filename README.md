@@ -1,8 +1,8 @@
 # Unemployment Data Analysis in India
 
-This project analyzes unemployment data across different regions in India.  
-The goal of the project is to understand unemployment trends and compare
-employment patterns between different states and areas.
+This project analyzes unemployment data from different regions in India using Python. 
+The aim of this project is to understand unemployment trends and compare employment
+patterns across regions and between urban and rural areas.
 
 ## Tools Used
 - Python
@@ -11,19 +11,33 @@ employment patterns between different states and areas.
 - Seaborn
 - Jupyter Notebook
 
-## Analysis Performed
-- Data cleaning and preprocessing
-- Regional unemployment analysis
+## Dataset
+The dataset contains information about unemployment in India.  
+It includes the following columns:
+- Region
+- Date
+- Frequency
+- Estimated Unemployment Rate (%)
+- Estimated Employed
+- Estimated Labour Participation Rate (%)
+- Area (Urban / Rural)
+
+## Data Cleaning
+Before analysis, the dataset was cleaned by:
+- Removing extra spaces in column names
+- Converting the date column to datetime format
+- Checking duplicate rows
+- Handling missing values
+
+## Analysis
+The following analysis was performed:
+- Regional unemployment rate analysis
 - Labour participation rate analysis
-- Urban vs Rural unemployment comparison
+- Urban vs rural unemployment comparison
 - Correlation analysis between variables
 
-## Dataset
-The dataset contains unemployment statistics for different regions in India,
-including unemployment rate, estimated employed population, labour participation
-rate, and area type (urban or rural).
-
 ## Conclusion
-The analysis shows that unemployment levels vary across different regions in
-India. The project helps understand regional employment patterns and workforce
-participation.
+The analysis shows that unemployment levels vary across regions in India.
+Labour participation also differs between states, which indicates differences
+in workforce activity. This project helps understand basic employment trends
+using exploratory data analysis.
